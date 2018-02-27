@@ -21,4 +21,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rissole.EntityFramework\Rissole.EntityFramework.csproj" />
+  </ItemGroup>
+
 </Project>
