@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Extensions
+namespace Rissole.EntityFramework.Extensions
 {
     internal static class ScriptConstants
     {

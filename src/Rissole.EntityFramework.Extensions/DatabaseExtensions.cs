@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace Extensions
+namespace Rissole.EntityFramework.Extensions
 {
     public static class DatabaseExtensions
     {
@@ -29,6 +29,7 @@ namespace Extensions
 
                 string script = $"{ScriptConstants.CreateDatabaseIfNotExist} {database}";
                 dbConnection.ExecuteNonQuery(script);
+                dbConnection.ChangeDatabase(database);
             }
         }
 
