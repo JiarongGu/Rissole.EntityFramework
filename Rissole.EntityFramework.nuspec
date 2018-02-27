@@ -2,16 +2,18 @@
 <package >
   <metadata>
     <id>Rissole.EntityFramework</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>jiarong.gu</authors>
     <owners>jiarong.gu</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Helper Libraris for Microsoft.EntityFrameworkCore</description>
-    <releaseNotes>Test Package</releaseNotes>
+    <releaseNotes>Added Generic Repository</releaseNotes>
     <copyright>Copyright 2018</copyright>
+    <projectUrl>https://github.com/JiarongGu/Rissole.EntityFramework</projectUrl>
   </metadata>
 
   <files>
+    <file src="src\Rissole.EntityFramework\bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
     <file src="src\Rissole.EntityFramework.Extensions\bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
   </files>
 </package>

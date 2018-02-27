@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rissole.EntityFramework.Extensions", "src\Rissole.EntityFramework.Extensions\Rissole.EntityFramework.Extensions.csproj", "{B38F36C7-08C7-408A-B09F-7DA8CB3D6A8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rissole.EntityFramework", "src\Rissole.EntityFramework\Rissole.EntityFramework.csproj", "{178722AB-4E9B-4886-813C-2BD0C1AE8541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B38F36C7-08C7-408A-B09F-7DA8CB3D6A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B38F36C7-08C7-408A-B09F-7DA8CB3D6A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B38F36C7-08C7-408A-B09F-7DA8CB3D6A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178722AB-4E9B-4886-813C-2BD0C1AE8541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178722AB-4E9B-4886-813C-2BD0C1AE8541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178722AB-4E9B-4886-813C-2BD0C1AE8541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178722AB-4E9B-4886-813C-2BD0C1AE8541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
